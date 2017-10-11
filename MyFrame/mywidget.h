@@ -18,6 +18,12 @@ public:
 private slots:
     void on_pushBtn1_toggled(bool checked);
 
+    void on_lineEdit2_returnPressed();
+
+    void on_lineEdit3_returnPressed();
+
+    void on_lineEdit4_returnPressed();
+
 private:
     Ui::MyWidget *ui;
 };
